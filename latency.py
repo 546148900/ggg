@@ -39,7 +39,7 @@ code3_time = df[var_names[3]].values.tolist()
 
 plt.figure()
 
-plt.title("Comparison of latency")
+plt.title("problem size vs. memory latency")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
